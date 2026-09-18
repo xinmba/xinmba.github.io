@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>百分比计算器 | 新伦</title>
+<meta name="description" content="免费在线百分比计算器，支持求百分比、百分比换算、增减变化率三种模式，学生和职场人士必备计算工具。">
+<meta name="keywords" content="百分比计算器,百分比,百分比计算,比率计算,变化率,增长率,百分比换算,求百分比">
+<link rel="canonical" href="http://calc.kixtools.com/percentage.html">
+<link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="shortcut icon" href="favicon.svg">
+<meta property="og:title" content="百分比计算器 | 新伦">
+<meta property="og:description" content="免费在线百分比计算器，支持求百分比、百分比换算、增减变化率三种模式，学生和职场人士必备计算工具。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://calc.kixtools.com/percentage.html">
+<meta property="og:image" content="http://calc.kixtools.com/og-image.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="百分比计算器 | 新伦">
+<meta name="twitter:description" content="免费在线百分比计算器，支持求百分比、百分比换算、增减变化率三种模式，学生和职场人士必备计算工具。">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebApplication","name":"百分比计算器","url":"http://calc.kixtools.com/percentage.html","description":"免费在线百分比计算器，支持求百分比、百分比换算、增减变化率三种模式，学生和职场人士必备计算工具。"}</script>
+</head>
+<body>
+<header class="header"><div class="header-inner">
+<a href="index.html" class="logo">⚡ 新伦 智算</a>
+<button class="nav-toggle" onclick="document.querySelector('.nav').classList.toggle('open')">☰</button>
+<nav class="nav"><a href="index.html">首页</a><a href="mortgage.html">房贷</a><a href="tax.html">个税</a><a href="bmi.html">BMI</a><a href="unit.html">换算</a><a href="age.html">年龄</a><a href="interest.html">利息</a><a href="salary.html">工资</a><a href="percentage.html" class=active>百分比</a><a href="random.html">随机数</a></nav>
+</div></header>
+<div class="container">
+<h1>百分比计算器</h1><p class="subtitle">三种计算</p><div class="card"><h3>① X的Y%</h3><div class="form-row"><div class="form-group"><input type="number" id="a1" value="200"></div><div class="form-group"><input type="number" id="b1" value="15"></div></div><button class="btn" onclick="document.getElementById('r1').textContent='= '+(+document.getElementById('a1').value*(+document.getElementById('b1').value)/100).toFixed(2)">算</button><div id="r1" style="margin-top:10px;font-size:20px;color:#2563eb"></div></div><div class="card" style="margin-top:15px"><h3>② X是Y的%几</h3><div class="form-row"><div class="form-group"><input type="number" id="a2" value="30"></div><div class="form-group"><input type="number" id="b2" value="200"></div></div><button class="btn" onclick="document.getElementById('r2').textContent='= '+(+document.getElementById('a2').value/(+document.getElementById('b2').value)*100).toFixed(2)+'%'">算</button><div id="r2" style="margin-top:10px;font-size:20px;color:#2563eb"></div></div><div class="card" style="margin-top:15px"><h3>③ 变化%</h3><div class="form-row"><div class="form-group"><input type="number" id="a3" value="100"></div><div class="form-group"><input type="number" id="b3" value="130"></div></div><button class="btn" onclick="var c=((+document.getElementById('b3').value-(+document.getElementById('a3').value))/(+document.getElementById('a3').value)*100);document.getElementById('r3').textContent='变化 '+c.toFixed(2)+'%'">算</button><div id="r3" style="margin-top:10px;font-size:20px;color:#2563eb"></div></div></div>
+
+
+</div>
+<div class="donate"><p>☕ 觉得好用？打赏一杯咖啡</p><p>Tron/USDT: <code>TEdwRKtNa1qyLLDGb6dGEdhLgDYnDBMF1c</code></p></div>
+<footer class="footer">© 2026 新伦 · 免费在线计算器｜由<a href="https://kixtools.com" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">KixTools</a>提供</footer>
+</div>
+<!-- Analytics -->
+<script>
+(function(){var s=location.hostname,p=location.pathname;new Image().src="https://site-analytics.gamezipper.com/hit?s="+encodeURIComponent(s)+"&p="+encodeURIComponent(p)+"&t="+Date.now();})()
+</script>
+</body>
+</html>
